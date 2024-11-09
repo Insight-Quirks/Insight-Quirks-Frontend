@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  insight_quirks_react_ui:
+    build: .
+    ports:
+      - "37500:5000"
+    environment:
+      - NODE_ENV=production
+    networks:
+      - yash_network
+
+networks:
+  default:
+    name: yash_network
+    external: true
