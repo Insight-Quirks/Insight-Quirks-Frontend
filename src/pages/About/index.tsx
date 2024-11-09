@@ -1,5 +1,5 @@
 import AboutSection from "../../components/About/AboutSection";
-import TeamSection from "../../components/Team/TeamSection";
+// import TeamSection from "../../components/Team/TeamSection";
 
 const About = () => {
   return (
