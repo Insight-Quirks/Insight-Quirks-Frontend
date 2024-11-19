@@ -136,7 +136,7 @@
 // export default TeamSection;
 
 import React, { useState } from 'react';
-import { Users } from 'lucide-react';
+// import { Users } from 'lucide-react';
 import TeamCard from './TeamCard';
 // import './TeamSection.css';
 
