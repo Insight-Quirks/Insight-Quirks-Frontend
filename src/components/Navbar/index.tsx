@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="logo">Insight Quirks</div>
+      <div className="logo">Insight Quirks Community</div>
       <ul className="nav-links">
         <li>
           <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>
@@ -21,7 +21,7 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/team" className={({ isActive }) => (isActive ? 'active' : '')}>
+          <NavLink to="/team1" className={({ isActive }) => (isActive ? 'active' : '')}>
             Team
           </NavLink>
         </li>
